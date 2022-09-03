@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Магічні Напої від Мумі-Тролів</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	
+
+	<meta name="description" content="Магічні Напої від Мумі-Тролів">
+	<meta name="keywords" content="Магічні Напої від Мумі-Тролів">
+  
+	<meta property="og:title" content="Магічні Напої від Мумі-Тролів" />
+	<meta property="og:description" content="Магічні Напої від Мумі-Тролів" />
+	<meta property="og:image" content="./img/logo.png" />
+  
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/logo.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/logo.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/logo.png">
+	<link rel="manifest" href="./img/logo.png">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <!-- header-page -->
+    <header class="header-page">
+    	<div class="container header-page__container">
+			<div class="header-page__start">
+				<div class="logo">
+					<img src="./img/logo.png" alt="">
+					<span>Магічні Напої<br>від Мумі-Тролів</span>
+				</div>
+			</div>
+			<div class="header-page__end">
+				<nav class="header-page__nav">
+					<ul class="header-page__ul">
+						<li class="header-page__li">
+							<a class="header-page__link" href="#" data-scroll-to="section-catalog">
+							<span class="header-page__text">Каталог</span>
+							</a>
+						</li>
+						<li class="header-page__li">
+							<a class="header-page__link" href="#" data-scroll-to="section-about">
+							<span class="header-page__text">Акції</span>
+							</a>
+						</li>
+						<li class="header-page__li">
+							<a class="header-page__link" href="#" data-scroll-to="section-contacts">
+							<span class="header-page__text">Оплата і доставка</span>
+							</a>
+						</li>
+						<li class="header-page__li">
+							<a class="header-page__link" href="#" data-scroll-to="section-about">
+							<span class="header-page__text">Про нас</span>
+							</a>
+						</li>
+
+						<li class="header__cart cart" tabindex="0">
+							<i class="fa-solid fa-cart-shopping">
+								<span class="cart__quantity">0</span>
+							</i>
+							<div class="cart-content">
+								<ul class="cart-content__list" data-simplebar></ul>
+								<div class="cart-content__bottom">
+									<div class="cart-content__fullprice">
+										<span>Разом:</span>
+										<span class="fullprice"> ₴</span>
+									</div>
+									<div class="cart-content__btn btn">Оформити замовлення</div>
+								</div>
+							</div>
+						</li>
+
+						<li class="header__phone">
+							<a class="header__phone__item" href="tel:+380999099211">+380 (99) 909-92-11</a>
+						</li>
+						<div class="header-page__hamburger">
+							<button class="btn-menu" type="button" data-popup="popup-menu">
+								<span class="btn-menu__box">
+									<span class="btn-menu__inner"></span>
+								</span>
+							</button>
+						</div>	
+
+						<ul class="sci">
+							<li style="--i:1"> 
+								<a href="https://www.facebook.com/profile.php?id=100026043443644" class="box__facebook fa-brands fa-facebook"></a>
+							</li>
+							<li style="--i:2"> 
+								<a href="https://www.instagram.com/alexander_morra_/?igshid=YmMyMTA2M2Y%3D" class="box__insta fa-brands fa-instagram "></a>
+							</li>
+							<li style="--i:3"> 
+								<a href="https://web.telegram.org/k/#@Morra_May" class="box__telegram fa-brands fa-telegram"></a>
+							</li>
+						</ul>
+					</ul>	
+
+					<div class="wrapper">
+						<div class="search-input">
+							<a href="" target="_blank" hidden></a>
+							<input type="text" placeholder="Знайти настоянку..">
+							<div class="autocom-box">
+							<!-- here list are inserted from javascript -->
+							</div>
+							<div class="icon"><i class="fas fa-search"></i></div>
+						</div>
+					</div>
+				</nav>
+			</div>		
+		</div>	
+		
+    </header>
+	
+    <!-- /.header-page -->
+
+    <!-- section-top -->
+    <section class="section-top">
+		<div class="container section-top__container">
+		  <h1 class="section-top__title"
+			data-aos="fade-up"
+			data-aos-delay="50"
+			data-aos-duration="800"
+			data-aos-easing="ease-in-out">
+		  Магічні Напої від Мумі-Тролів</h1>
+		  <p class="section-top__info"
+			data-aos="fade-right"
+			data-aos-delay="550"
+			data-aos-duration="1000"
+			data-aos-easing="ease-in-out">
+		  Наливай та випивай</p>
+		  <div class="section-top__btn"
+			data-aos="fade-in"
+			data-aos-delay="1250"
+			data-aos-duration="500"
+			data-aos-easing="ease-in-out">
+			<button class="btns" type="button" data-scroll-to="section-catalog">ОБРАТИ НАПОЇ</button>
+		  </div>
+		</div>
+	</section>
+    <!-- /.section-top -->
+
+    <main class="content">
+		<div class="container">
+			<div class="products-title__name"
+						data-aos="fade-up"
+						data-aos-delay="50"
+						data-aos-duration="1000"
+						data-aos-easing="ease-out-back">
+					Настоянки
+				</div>
+			<div class="products-content grid-container">
+				<ul class="products-grid">
+
+					<li class="products-grid__item"
+						data-aos="fade-right"
+						data-aos-delay="150"
+						data-aos-duration="1500"
+						data-aos-easing="ease-out-back">
+						<article class="product">
+							<a href="#" class="product__image">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/1й.jpg" alt="Настоянка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/2й.jpg" alt="Настоянка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/3й.jpg" alt="Настоянка"></div>
+									</div>
+								</div>
+								<ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Барбарисова Настоянка <br>"Серце дракона"</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,7
+								</span>
+								<span class="product__testimonials">12 відгуків</span>
+							</div>
+							<div class="product__info">
+								<span class="product__available">В наявності</span>
+							</div>
+							<div class="product__price product-price">
+								<span class="product-price__current">170 ₴</span>
+								
+							</div>
+
+							<a href="#popup__barbaris" class="blurryface__popup">(больше информации)</a>
+							<div id="popup__barbaris" class="popup__barbaris">
+								<a href="#header" class="popup__area"></a>
+								<div class="popup__body">
+									<a href="#header" class="popup__close fa-solid fa-circle-xmark"></i></a>
+									<div class="popup__content">
+										<div class="popup__text">
+											94 727 экземпляров в Великобритании и 6,5 миллионов копий по всему миру.
+										</div>
+										<div class="popup__img"></div>
+									</div>
+								</div>
+							</div>
+							
+							<button class="product__btn btn">Додати до кошику</button>
+						</article>
+					</li>
+
+					<li class="products-grid__item"
+						data-aos="fade-right"
+						data-aos-delay="350"
+						data-aos-duration="1500"
+						data-aos-easing="ease-out-back">
+						<article class="product">
+							<a href="#" class="product__image">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/1н.jpg" alt="Настоянка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/2н.jpg" alt="Настоянка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/3н.jpg" alt="Настоянка"></div>
+									</div>
+								</div>
+								<ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Абрикосова Настоянка <br>"Смак Сонця"</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									5,0
+								</span>
+								<span class="product__testimonials">83 відгуків</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Немає в наявності</span>
+							</div>
+							<div class="product__price product-price">
+								<span class="product-price__current">130 ₴</span>
+							</div>
+							<button class="product__btn btn">Додати до кошику</button>
+						</article>
+					</li>
+
+					<li class="products-grid__item"
+						data-aos="fade-right"
+						data-aos-delay="550"
+						data-aos-duration="1500"
+						data-aos-easing="ease-out-back">
+						<article class="product">
+							<a href="#" class="product__image">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/1н.jpg" alt="Настоянка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/2н.jpg" alt="Настоянка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/3н.jpg" alt="Настоянка"></div>
+									</div>
+								</div>
+								<ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Барбарисовая Настойка <br>"Кровь Дракона"</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									3,6
+								</span>
+								<span class="product__testimonials">3 отзыва</span>
+							</div>
+							<div class="product__info">
+								<span class="product__available">В наличии: 13 шт</span>
+							</div>
+							<div class="product__price product-price">
+								<span class="product-price__current">120 ₴</span>
+								<span class="product-price__old">160 ₴</span>
+							</div>
+							<button class="product__btn btn">Добавить в корзину</button>
+						</article>
+		
+					<li class="products-grid__item"
+						data-aos="fade-left"
+						data-aos-delay="550"
+						data-aos-duration="1500"
+						data-aos-easing="ease-out-back">
+						<article class="product">
+							<a href="#" class="product__image">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/1н.jpg" alt="Макбук"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/2н.jpg" alt="Макбук"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/3н.jpg" alt="Макбук"></div>
+									</div>
+								</div>
+								<ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Барбарисовая Настойка <br>"Кровь Дракона"</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									3,6
+								</span>
+								<span class="product__testimonials">3 отзыва</span>
+							</div>
+							<div class="product__info">
+								<span class="product__available">В наличии: 13 шт</span>
+							</div>
+							<div class="product__price product-price">
+								<span class="product-price__current">120 ₴</span>
+								<span class="product-price__old">160 ₴</span>
+							</div>
+							<button class="product__btn btn">Добавить в корзину</button>
+						</article>
+					</li>
+
+					<li	class="products-grid__item"
+						data-aos="fade-left"
+						data-aos-delay="350"
+						data-aos-duration="1500"
+						data-aos-easing="ease-out-back">
+						<article class="product">
+							<a href="#" class="product__image">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/1н.jpg" alt="Макбук"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/2н.jpg" alt="Макбук"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/3н.jpg" alt="Макбук"></div>
+									</div>
+								</div>
+								<ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Барбарисовая Настойка <br>"Кровь Дракона"</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									3,6
+								</span>
+								<span class="product__testimonials">3 отзыва</span>
+							</div>
+							<div class="product__info">
+								<span class="product__available">В наличии: 13 шт</span>
+							</div>
+							<div class="product__price product-price">
+								<span class="product-price__current">120 ₴</span>
+								<span class="product-price__old">160 ₴</span>
+							</div>
+							<button class="product__btn btn">Добавить в корзину</button>
+						</article>
+					</li>
+
+					<li class="products-grid__item"
+						data-aos="fade-left"
+						data-aos-delay="150"
+						data-aos-duration="1500"
+						data-aos-easing="ease-out-back">
+						<article class="product">
+							<a href="#" class="product__image">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/1й.jpg" alt="Настійка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/2й.jpg" alt="Настійка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/3й.jpg" alt="Настійка"></div>
+									</div>
+								</div>
+								<ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Барбарисовая Настойка <br>"Кровь Дракона"</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,7
+								</span>
+								<span class="product__testimonials">12 отзыва</span>
+							</div>
+							<div class="product__info">
+								<span class="product__available">В наличии</span>
+							</div>
+							<div class="product__price product-price">
+								<span class="product-price__current">170 ₴</span>
+								
+							</div>
+							<button class="product__btn btn">Добавить в корзину</button>
+						</article>
+					</li>
+				</ul>
+			</div>		
+		</div>
+
+
+		<div class="products-title__name-2"
+			data-aos="fade-up"
+			data-aos-delay="50"
+			data-aos-duration="1000"
+			data-aos-easing="ease-out-back">
+			Кріплені Настоянки
+		</div>
+
+		<div class="container">
+			<div class="products-content grid-container">
+				<ul class="products-grid">
+					<li class="products-grid__item"
+						data-aos="fade-right"
+						data-aos-delay="150"
+						data-aos-duration="1500"
+						data-aos-easing="ease-out-back">
+						<article class="product">
+							<a href="#" class="product__image">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/1й.jpg" alt="Настійка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/2й.jpg" alt="Настійка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/3й.jpg" alt="Настійка"></div>
+									</div>
+								</div>
+								<ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Барбарисовая Настойка <br>"Кровь Дракона"</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,7
+								</span>
+								<span class="product__testimonials">12 отзыва</span>
+							</div>
+							<div class="product__info">
+								<span class="product__available">В наличии</span>
+							</div>
+							<div class="product__price product-price">
+								<span class="product-price__current">170 ₴</span>
+								
+							</div>
+							<button class="product__btn btn">Добавить в корзину</button>
+						</article>
+					</li>
+
+					<li class="products-grid__item"
+						data-aos="fade-right"
+						data-aos-delay="350"
+						data-aos-duration="1500"
+						data-aos-easing="ease-out-back">
+						<article class="product">
+							<a href="#" class="product__image">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/1й.jpg" alt="Настійка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/2й.jpg" alt="Настійка"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/3й.jpg" alt="Настійка"></div>
+									</div>
+								</div>
+								<ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Барбарисовая Настойка <br>"Кровь Дракона"</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,7
+								</span>
+								<span class="product__testimonials">12 отзыва</span>
+							</div>
+							<div class="product__info">
+								<span class="product__available">В наличии</span>
+							</div>
+							<div class="product__price product-price">
+								<span class="product-price__current">170 ₴</span>
+								
+							</div>
+							<button class="product__btn btn">Добавить в корзину</button>
+						</article>
+					</li>
+
+					<li class="products-grid__item"
+						data-aos="fade-right"
+						data-aos-delay="550"
+						data-aos-duration="1500"
+						data-aos-easing="ease-out-back">
+						<article class="product">
+							<a href="#" class="product__image">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/1н.jpg" alt="Макбук"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/2н.jpg" alt="Макбук"></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="./img/3н.jpg" alt="Макбук"></div>
+									</div>
+								</div>
+								<ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Барбарисовая Настойка <br>"Кровь Дракона"</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									5,0
+								</span>
+								<span class="product__testimonials">83 отзыва</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Нет в наличии</span>
+							</div>
+							<div class="product__price product-price">
+								<span class="product-price__current">130 ₴</span>
+							</div>
+							<button class="product__btn btn">Добавить в корзину</button>
+						</article>
+					</li>
+		</div>
+	</main>
+
+	<!-- section-about -->
+	<section class="section section-about-2"
+		data-aos="fade-up"
+		data-aos-delay="350"
+		data-aos-duration="1100"
+		data-aos-easing="ease-out">
+		<picture>
+		<img class="section-about__img-2 lazy" src="./img/3.jpg">
+		</picture>
+		<div class="container section-about__container-2">
+			<div class="section-about__content">
+				<h2 class="page-title section-about__title">Кріплені</h2>
+				<p class="section-about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed totam voluptatibus fugit possimus dignissimos quo suscipit repellendus nostrum adipisci, exercitationem doloribus facilis sapiente obcaecati illo architecto, sunt, distinctio tempore alias. <br>
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- /.section-about -->
+
+	<!-- section-about -->
+<section class="section section-about-3"
+		data-aos="fade-right"
+		data-aos-delay="350"
+		data-aos-duration="1100"
+		data-aos-easing="ease-out">
+	<picture>
+	<img class="section-about__img-3 lazy" src="./img/2.jpg">
+	</picture>
+	<div class="container section-about__container-3">
+		<div class="section-about__content">
+			<h2 class="page-title section-about__title">Hello</h2>
+			<p class="section-about__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dicta ea atque quidem iste illum nostrum quis voluptatum ut, ratione doloribus, blanditiis aspernatur quasi, tempora natus cupiditate amet illo repellat. <br>
+			</p>
+		</div>
+	</div>
+</section>
+<!-- /.section-about -->
+
+<!-- section-about -->
+<section class="section section-about-4"
+		data-aos="fade-up"
+		data-aos-delay="350"
+		data-aos-duration="1100"
+		data-aos-easing="ease-out">
+	<picture>
+	<img class="section-about__img-4 lazy" src="./img/first.jpg">
+	</picture>
+	<div class="container section-about__container-4">
+		<div class="section-about__content">
+			<h2 class="page-title section-about__title">Its me</h2>
+			<p class="section-about__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit, aliquam animi, cumque facilis ex quaerat similique sed unde totam quod a neque id voluptas fugit sit optio non! Ipsam. <br>
+			</p>
+		</div>
+	</div>
+</section>
+<!-- /.section-about -->
+
+<div class="products-title__name-2"
+	data-aos="fade-up"
+	data-aos-delay="50"
+	data-aos-duration="1000"
+	data-aos-easing="ease-out-back">
+	Оплата і доставка
+</div>
+
+<div class="static__card"
+	data-aos="flip-up"
+	data-aos-delay="250"
+	data-aos-duration="1400"
+	data-aos-easing="ease-out-back">
+	<div class="static-txt"
+		data-aos="zoom-in"
+		data-aos-delay="750"
+		data-aos-duration="600"
+		data-aos-easing="ease-out">
+		I'm a
+	</div>
+</div> 
+
+
+<div class="products-title__name-2"
+	data-aos="fade-up"
+	data-aos-delay="50"
+	data-aos-duration="1000"
+	data-aos-easing="ease-out-back">
+	Про нас
+</div>
+
+<!-- section-about -->
+<section class="section section-about-first"
+	<picture>
+	<img class="section-about__img-first lazy" src="./img/4.jpg">
+	</picture>
+	<div class="container section-about__container-first">
+		<div class="section-about__content-1">
+			<h2 class="page-title section-about__titles">how are you</h2>
+			<p class="section-about__texts">yyeeeesrtas rsdgfdr fdsfsdefr <br>
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. In iure autem officiis, similique animi debitis a ducimus laboriosam odio velit. Nobis quam fugit perferendis sint perspiciatis quia sapiente velit dolorum? <br>
+			</p>
+		</div>
+		<div class="section-about__content-2">
+			<h2 class="page-title section-about__titles">Lets go</h2>
+			<p class="section-about__texts"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In maxime quibusdam officia natus eum soluta repudiandae, quis debitis? Esse temporibus a voluptatem numquam natus vitae dicta minima repellendus, saepe impedit? <br>
+			 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste rem qui pariatur dolores amet recusandae inventore quo, quibusdam nesciunt dolor numquam quod voluptas omnis ipsam ex nemo minima error iusto?<br>
+			</p>
+		</div>
+	</div>
+</section>
+<!-- /.section-about -->
+
+    <!-- footer-page -->
+	<div class="height"></div>
+    <footer class="footer-page">
+        <div class="container">
+        <div class="footer-page__text">© hello 2022. All Rights Reserved.</div>
+        </div>
+    </footer>
+    <!-- /.footer-page -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+	<script src="https://kit.fontawesome.com/6d7cb93199.js" crossorigin="anonymous"></script>
+   
+	<script src="./js/suggestions.js"></script>
+	<script src="./js/search.js"></script>
+	<script src="./js/simplebar.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+  </html>
