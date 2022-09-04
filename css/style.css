@@ -264,15 +264,7 @@ ul {
     top: 9%;
     cursor: pointer;
   }
-  .logo span{
-    position: relative;
-    left: 90px;
-    top: 0px;
-    font-size: 13px;
-    font-weight: 500;
-    color: #fff;
-    cursor: pointer;
-  }
+  
    /* logo end */
 
    /* cart start */
