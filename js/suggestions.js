@@ -1,5 +1,5 @@
 let suggestions = [
-    "#about",
+    "Настійка",
     "CodingLab",
     "CodingNepal",
     "YouTube",

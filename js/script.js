@@ -82,7 +82,7 @@ productsBtn.forEach(el => {
 		printQuantity();
 
 		
-		self.disabled = true;
+		
 	});
 });
 
