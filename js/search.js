@@ -12,8 +12,8 @@ inputBox.onkeyup = (e)=>{
     let emptyArray = [];
     if(userData){
         icon.onclick = ()=>{
-            idLink = `https://morramay.github.io/MagicDrinksFromMumintrollet/${userData}`;
-            linkTag.setAttribute("id", idLink);
+            idLink = `id${userData}`;
+            linkTag.setAttribute("id", idlink);
             linkTag.click();
         }
         emptyArray = suggestions.filter((data)=>{
@@ -40,8 +40,8 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        idLink = `https://morramay.github.io/MagicDrinksFromMumintrollet/${userData}`;
-        linkTag.setAttribute("id", idLink);
+        idLink = `id${userData}`;
+        linkTag.setAttribute("id", idlink);
         linkTag.click();
     }
     searchWrapper.classList.remove("active");
