@@ -13,7 +13,7 @@ inputBox.onkeyup = (e)=>{
     if(userData){
         icon.onclick = ()=>{
             webLink = `https://morramay.github.io/MagicDrinksFromMumintrollet/${userData}`;
-            linkTag.setAttribute("id", webLink);
+            linkTag.setAttribute("href", webLink);
             linkTag.click();
         }
         emptyArray = suggestions.filter((data)=>{
@@ -41,7 +41,7 @@ function select(element){
     inputBox.value = selectData;
     icon.onclick = ()=>{
         webLink = `https://morramay.github.io/MagicDrinksFromMumintrollet/${selectData}`;
-        linkTag.setAttribute("href", webLink);
+        linkTag.setAttribute("id", webLink);
         linkTag.click();
     }
     searchWrapper.classList.remove("active");
