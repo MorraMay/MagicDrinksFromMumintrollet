@@ -41,7 +41,7 @@ function select(element){
     inputBox.value = selectData;
     icon.onclick = ()=>{
         webLink = `https://morramay.github.io/MagicDrinksFromMumintrollet/${selectData}`;
-        linkTag.setAttribute("id", webLink);
+        linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
     searchWrapper.classList.remove("active");
